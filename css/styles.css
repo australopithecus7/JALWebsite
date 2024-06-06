@@ -1,0 +1,92 @@
+﻿/*
+************************************************************************************************************************
+* Basic CSS File - second reference in HTML file 	       	    								       	     *
+* Project : 																																			     *
+* Author  : John Lyes - lyesj@tpg.com.au                                                                               *
+* Date    : 12/07/2012                    																			           *
+************************************************************************************************************************
+000000000111111111122222222223333333333444444444455555555556666666666777777777788888888889999999999000000000011111111112
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+*/
+
+/*
+==================================================
+= Colour Legend     														 =
+==================================================
+
+dark brown:  #4F2700;
+light brown: #CDA355;
+tan accent:  #F0E9E1;
+
+*/                 
+
+/*
+==================================================
+= Global Definitions														 =
+==================================================
+*/
+
+html 	             {	}
+body	             { text-align:center; background-color: #CDA355; }
+/*text-align:center in body tag; used for IE*/
+
+/*
+==================================================
+= Containers  																	 =
+==================================================
+*/
+
+#wrapper           { width: 800px; margin: 0 auto; background-color: #F0E9E1; }
+
+#top	 			       { width: 100%; height: 25px; background-color: #4F2700; }
+
+#banner 			     { background-image: url('../images/banner.jpg'); background-repeat: no-repeat; width: 800px; height: 343px;  }
+
+#subbanner 			   { background-color: #4F2700; padding: 10px 10px; text-align: right; border-top: 1px #FFFFF solid ;}
+
+#leftnav 			     { float: left; padding: 24px 0; background-color: #F0E9E1; }
+
+#content 			     { margin-left: 225px; padding: 10px; background-color: #FFFFFF;  }
+#content h1		     { font-size: 24px; margin: 12px 0px; }
+#content h2		     { font-size: 18px; margin: 9px 0px; }
+#content p		     { line-height: 150%; margin-bottom: 9px; }
+#content img	     { padding: 5px; border: 1px #000000 dotted; margin: 8px; }
+
+#footer 			     { background-color: #4F2700; padding: 8px 0px; }
+
+/*
+==================================================
+= Navigation   																	 =
+==================================================
+*/
+
+#leftnav ul			   		 { width: 198px; }
+#leftnav li a		       { height: 35px; display: block; }
+
+#leftnav li.home       { background-image: url('../images/nav/home-on.jpg'); }
+#leftnav li.home a     { background-image: url('../images/nav/home-off.jpg'); }
+#leftnav li.about      { background-image: url('../images/nav/about-on.jpg'); }
+#leftnav li.about a    { background-image: url('../images/nav/about-off.jpg'); }
+#leftnav li.hours      { background-image: url('../images/nav/hours-on.jpg'); }
+#leftnav li.hours a 	 { background-image: url('../images/nav/hours-off.jpg'); }
+#leftnav li.loc        { background-image: url('../images/nav/loc-on.jpg'); }
+#leftnav li.loc a      { background-image: url('../images/nav/loc-off.jpg'); }
+#leftnav li.menu       { background-image: url('../images/nav/menu-on.jpg'); }
+#leftnav li.menu a     { background-image: url('../images/nav/menu-off.jpg'); }
+
+#leftnav li a:hover    { background-image: none; }        /*Background image for "a" tag = none, so defaults to on graphic */
+#leftnav li a span     { display: none; }									/*Text appears when CSS disabled for readers*/
+
+
+/*
+==================================================
+= Classes     																	 =
+==================================================
+*/
+.footer-text	         { font-size: 80%; font-style: italic; color: #FFFFFF; text-align: center; }
+/*
+==================================================
+= End                                       		 =
+==================================================
+*/
+
